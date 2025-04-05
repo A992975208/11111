@@ -1,0 +1,29 @@
+{
+    "id": "qianguo-edu-APP",
+    "name": "千果家庭教育",
+    "displayName": "千果家庭教育APP",
+    "version": "1.2.2",
+    "description": "",
+    "keywords": [
+        "",
+        "",
+        "",
+        "",
+        ""
+    ],
+    "dcloudext": {
+        "category": [
+            "",
+            ""
+        ]
+    },
+    "dependencies": {
+        "crypto-js": "^4.2.0",
+        "dayjs": "^1.11.13",
+        "luch-request": "^3.1.1",
+        "vconsole": "^3.15.1",
+        "vue": "^3.5.13",
+        "vuex": "^4.1.0",
+        "xgplayer": "^3.0.20"
+    }
+}

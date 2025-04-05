@@ -1,0 +1,617 @@
+{
+	"easycom": {
+		"^tn-(.*)": "@/tuniao-ui/components/tn-$1/tn-$1.vue"
+	},
+	"pages": [
+		//pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "minePages/login",
+			"style": {
+				//				"enablePullDownRefresh": true,
+				"mp-weixin": {
+					"disableScroll": true
+				},
+				"app-plus": {
+					"bounce": "none"
+				},
+				"mp-alipay": {
+					"allowsBounceVertical": "NO"
+				},
+				"mp-baidu": {
+					"disableScroll": true
+				}
+			}
+		},
+		{
+			"path": "pages/index",
+			"style": {
+				//				"enablePullDownRefresh": true,
+				"mp-weixin": {
+					"disableScroll": true
+				},
+				"app-plus": {
+					"bounce": "none"
+				},
+				"mp-alipay": {
+					"allowsBounceVertical": "NO"
+				},
+				"mp-baidu": {
+					"disableScroll": true
+				}
+			}
+		}
+	],
+	"subPackages": [{
+		"root": "homePages",
+		"pages": [{
+				"path": "about",
+				"style": {
+					"navigationBarTitleText": "关于我们",
+					"enablePullDownRefresh": false
+				}
+			},
+			{
+				"path": "search",
+				"style": {
+					"navigationBarTitleText": "全局搜索",
+					"enablePullDownRefresh": false
+				}
+			}
+		]
+	}, {
+		"root": "circlePages",
+		"pages": [
+			{
+				"path": "blogger",
+				"style": {
+					"navigationBarTitleText": "博主_Me",
+					"enablePullDownRefresh": false
+				}
+			},
+			{
+				"path": "blogger_other",
+				"style": {
+					"navigationBarTitleText": "博主_Ta",
+					"enablePullDownRefresh": false
+				}
+			},
+			{
+				"path": "public",
+				"style": {
+					"navigationBarTitleText": "发布帖子",
+					"enablePullDownRefresh": false
+				}
+			},
+			{
+				"path": "edit",
+				"style": {
+					"navigationBarTitleText": "编辑帖子",
+					"enablePullDownRefresh": false
+				}
+			},
+			{
+				"path": "advertise",
+				"style": {
+					"navigationBarTitleText": "广告页",
+					"enablePullDownRefresh": false
+				}
+			},
+			{
+				"path": "news",
+				"style": {
+					"navigationBarTitleText": "资讯详情",
+					"enablePullDownRefresh": false
+				}
+			},
+			{
+				"path": "king",
+				"style": {
+					"navigationBarTitleText": "名片王者",
+					"enablePullDownRefresh": false
+				}
+			},
+			{
+				"path": "business",
+				"style": {
+					"navigationBarTitleText": "智能名片",
+					"enablePullDownRefresh": false
+				}
+			},
+			{
+				"path": "group",
+				"style": {
+					"navigationBarTitleText": "精选社区",
+					"enablePullDownRefresh": false
+				}
+			},
+			{
+				"path": "ranking",
+				"style": {
+					"navigationBarTitleText": "积分排行",
+					"enablePullDownRefresh": false
+				}
+			},
+			{
+				"path": "details",
+				"style": {
+					"navigationBarTitleText": "动态详情",
+					"enablePullDownRefresh": true
+				}
+			},
+			{
+				"path": "reserve",
+				"style": {
+					"navigationBarTitleText": "预约接龙",
+					"enablePullDownRefresh": false
+				}
+			},
+			{
+				"path": "create",
+				"style": {
+					"navigationBarTitleText": "活动创建",
+					"enablePullDownRefresh": false
+				}
+			},
+			{
+				"path": "build",
+				"style": {
+					"navigationBarTitleText": "打造圈子",
+					"enablePullDownRefresh": false
+				}
+			},
+			{
+				"path": "chat",
+				"style": {
+					"navigationBarTitleText": "一起群聊",
+					"enablePullDownRefresh": false
+				}
+			},
+			{
+				"path": "chatting",
+				"style": {
+					"navigationBarTitleText": "对话聊天",
+					"enablePullDownRefresh": false
+				}
+			}
+		]
+	}, {
+		"root": "activityPages",
+		"pages": [
+			{
+				"path": "map",
+				"style": {
+					"navigationBarTitleText": "地图打卡",
+					"enablePullDownRefresh": false
+				}
+			},
+			{
+				"path": "topic",
+				"style": {
+					"navigationBarTitleText": "快速答题",
+					"enablePullDownRefresh": false
+				}
+			},
+			{
+				"path": "study",
+				"style": {
+					"navigationBarTitleText": "课程学习",
+					"enablePullDownRefresh": false
+				}
+			},
+			{
+				"path": "project",
+				"style": {
+					"navigationBarTitleText": "开源项目",
+					"enablePullDownRefresh": false
+				}
+			},
+			{
+				"path": "planet",
+				"style": {
+					"navigationBarTitleText": "活动星球",
+					"enablePullDownRefresh": false
+				}
+			}
+		]
+	}, {
+		"root": "preferredPages",
+		"pages": [
+			{
+				"path": "product",
+				"style": {
+					"navigationBarTitleText": "商品详情",
+					"enablePullDownRefresh": false
+				}
+			},
+			{
+				"path": "iconsdetail",
+				"style": {
+					"navigationBarTitleText": "板块列表",
+					"enablePullDownRefresh": false
+				}
+			},
+			{
+				"path": "redeem",
+				"style": {
+					"navigationBarTitleText": "全部商品",
+					"enablePullDownRefresh": false
+				}
+			},
+			{
+				"path": "myclasstable",
+				"style": {
+					"navigationBarTitleText": "我的课程表",
+					"enablePullDownRefresh": false
+				}
+			},
+			{
+				"path": "nocompleted",
+				"style": {
+					"navigationBarTitleText": "未完成任务",
+					"enablePullDownRefresh": false
+				}
+			},
+			{
+				"path": "coursedetail",
+				"style": {
+					"navigationBarTitleText": "课程小节",
+					"enablePullDownRefresh": false
+				}
+			}
+		]
+	}, {
+		"root": "minePages",
+		"pages": [
+			{
+				"path": "protocol",
+				"style": {
+					"navigationBarTitleText": "使用协议",
+					"enablePullDownRefresh": false
+				}
+			},
+			{
+				"path": "login",
+				"style": {
+					"navigationBarTitleText": "登录",
+					"enablePullDownRefresh": false
+				}
+			},
+			{
+				"path": "touristslogin",
+				"style": {
+					"navigationBarTitleText": "游客登录",
+					"enablePullDownRefresh": false
+				}
+			},
+			{
+				"path": "forgetPassword",
+				"style": {
+					"navigationBarTitleText": "忘记密码",
+					"enablePullDownRefresh": false
+				}
+			},
+			{
+				"path": "message",
+				"style": {
+					"navigationBarTitleText": "消息通知",
+					"enablePullDownRefresh": false
+				}
+			},
+			{
+				"path": "set",
+				"style": {
+					"navigationBarTitleText": "全局设置",
+					"enablePullDownRefresh": false
+				}
+			},
+			{
+				"path": "noticeSet",
+				"style": {
+					"navigationBarTitleText": "通知设置",
+					"enablePullDownRefresh": false
+				}
+			},
+			{
+				"path": "networkSet",
+				"style": {
+					"navigationBarTitleText": "网络设置",
+					"enablePullDownRefresh": false
+				}
+			},
+			{
+				"path": "userSet",
+				"style": {
+					"navigationBarTitleText": "用户设置",
+					"enablePullDownRefresh": false
+				}
+			},
+			{
+				"path": "personalInfo",
+				"style": {
+					"navigationBarTitleText": "个人信息收集清单",
+					"enablePullDownRefresh": false
+				}
+			},
+			{
+				"path": "thirdPartyInfoShareList",
+				"style": {
+					"navigationBarTitleText": "第三方信息共享清单",
+					"enablePullDownRefresh": false
+				}
+			},
+			{
+				"path": "appPermissionsDesc",
+				"style": {
+					"navigationBarTitleText": "应用权限说明",
+					"enablePullDownRefresh": false
+				}
+			},
+			{
+				"path": "start",
+				"style": {
+					"navigationBarTitleText": "立即体验",
+					"enablePullDownRefresh": false
+				}
+			},
+			{
+				"path": "thanks",
+				"style": {
+					"navigationBarTitleText": "关于千果家庭教育",
+					"enablePullDownRefresh": false
+				}
+			},
+			{
+				"path": "version",
+				"style": {
+					"navigationBarTitleText": "版本更新",
+					"enablePullDownRefresh": false
+				}
+			},
+			{
+				"path": "help",
+				"style": {
+					"navigationBarTitleText": "帮助中心",
+					"enablePullDownRefresh": false
+				}
+			},
+			{
+				"path": "integral",
+				"style": {
+					"navigationBarTitleText": "积分明细",
+					"enablePullDownRefresh": false
+				}
+			},
+			{
+				"path": "signed",
+				"style": {
+					"navigationBarTitleText": "积分签到",
+					"enablePullDownRefresh": false
+				}
+			},
+			{
+				"path": "collect",
+				"style": {
+					"navigationBarTitleText": "我的收藏",
+					"enablePullDownRefresh": false
+				}
+			},
+			{
+				"path": "safety",
+				"style": {
+					"navigationBarTitleText": "账号安全",
+					"enablePullDownRefresh": false
+				}
+			},
+			{
+				"path": "default",
+				"style": {
+					"navigationBarTitleText": "缺省页",
+					"enablePullDownRefresh": false
+				}
+			},
+			{
+				"path": "reward",
+				"style": {
+					"navigationBarTitleText": "赞赏作者",
+					"enablePullDownRefresh": false
+				}
+			},
+			{
+				"path": "content",
+				"style": {
+					"navigationBarTitleText": "隐私政策",
+					"enablePullDownRefresh": false
+				}
+			}, {
+				"path": "userAgreement",
+				"style": {
+					"navigationBarTitleText": "用户个人协议",
+					"enablePullDownRefresh": false
+				}
+			},
+			{
+				"path": "trainingAgreement",
+				"style": {
+					"navigationBarTitleText": "培训协议",
+					"enablePullDownRefresh": false
+				}
+			},
+			{
+				"path": "childPersonalRules",
+				"style": {
+					"navigationBarTitleText": "儿童个人保护协议",
+					"enablePullDownRefresh": false
+				}
+			},
+
+			{
+				"path": "personal",
+				"style": {
+					"navigationBarTitleText": "个人资料",
+					"enablePullDownRefresh": false
+				}
+			},
+			{
+				"path": "confirmOrder",
+				"style": {
+					"navigationBarTitleText": "确认订单",
+					"enablePullDownRefresh": false
+				}
+			},
+			{
+				"path": "order",
+				"style": {
+					"navigationBarTitleText": "我的订单",
+					"enablePullDownRefresh": false
+				}
+			},
+			{
+				"path": "cancelOrder",
+				"style": {
+					"navigationBarTitleText": "取消订单",
+					"enablePullDownRefresh": false
+				}
+			},
+			{
+				"path": "checkkd",
+				"style": {
+					"navigationBarTitleText": "我的收藏",
+					"enablePullDownRefresh": false
+				}
+			},
+			{
+				"path": "myCoupons",
+				"style": {
+					"navigationBarTitleText": "我的优惠券",
+					"enablePullDownRefresh": false
+				}
+			},
+			{
+				"path": "accountSafety",
+				"style": {
+					"navigationBarTitleText": "账号与安全",
+					"enablePullDownRefresh": false
+				}
+			},
+			{
+				"path": "logOut",
+				"style": {
+					"navigationBarTitleText": "注销账号",
+					"enablePullDownRefresh": false
+				}
+			},
+			{
+				"path": "shippingAddress",
+				"style": {
+					"navigationBarTitleText": "收货地址",
+					"enablePullDownRefresh": false
+				}
+			},
+			{
+				"path": "addReceiptAddress",
+				"style": {
+					"navigationBarTitleText": "添加收货地址",
+					"enablePullDownRefresh": false
+				}
+			},
+			{
+				"path": "addShoppingCar",
+				"style": {
+					"navigationBarTitleText": "购物车",
+					"enablePullDownRefresh": false
+				}
+			},
+			{
+				"path": "checkoutCounter",
+				"style": {
+					"navigationBarTitleText": "收银台",
+					"enablePullDownRefresh": false
+				}
+			},
+			{
+				"path": "about",
+				"style": {
+					"navigationBarTitleText": "关于",
+					"enablePullDownRefresh": false
+				}
+			},
+			{
+				"path": "feedBack",
+				"style": {
+					"navigationBarTitleText": "问题反馈",
+					"enablePullDownRefresh": false
+				}
+			},
+			{
+				"path": "bussineslicense",
+				"style": {
+					"navigationBarTitleText": "资质证照公示",
+					"enablePullDownRefresh": false
+				}
+			},
+			{
+				"path": "couponVerification",
+				"style": {
+					"navigationBarTitleText": "卡券核销",
+					"enablePullDownRefresh": false
+				}
+			},
+			{
+				"path": "verificationRecord",
+				"style": {
+					"navigationBarTitleText": "核销记录",
+					"enablePullDownRefresh": false
+				}
+			},
+			{
+				"path": "concatUs",
+				"style": {
+					"navigationBarTitleText": "联系我们",
+					"enablePullDownRefresh": false
+				}
+			},
+			{
+				"path": "activityPost",
+				"style": {
+					"navigationBarTitleText": "活动公告",
+					"enablePullDownRefresh": false
+				}
+			},
+			{
+				"path": "otherActivityPost",
+				"style": {
+					"navigationBarTitleText": "系统点赞评论通知",
+					"enablePullDownRefresh": false
+				}
+			},
+			{
+				"path": "memberCenter",
+				"style": {
+					"navigationBarTitleText": "会员中心",
+					"enablePullDownRefresh": false
+				}
+			},
+			{
+				"path": "memberMessage",
+				"style": {
+					"navigationBarTitleText": "会员消息",
+					"enablePullDownRefresh": false
+				}
+			},
+			{
+				"path": "vipAgreement",
+				"style": {
+					"navigationBarTitleText": "开通会员协议",
+					"enablePullDownRefresh": false
+				}
+			}
+		]
+	}],
+	"globalStyle": {
+		"navigationStyle": "custom",
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "千果家庭教育",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	}
+}
